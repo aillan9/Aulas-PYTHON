@@ -1,0 +1,14 @@
+import os
+os.system ("cls || clear")
+
+# Solicitando dados
+idade = int(input("Digite sua idade:"))
+
+# Definindo condicionais
+if idade >65 or idade <18:
+    print("Você não é obrigado a votar.")
+
+else:
+    print("Você é obrigado a votar.")
+
+
